@@ -8,9 +8,14 @@ module.exports = {
             },
             {
                 source: "/streamticker",
-                destination: "https://discord.com/api/oauth2/authorize?client_id=822117936251928586&permissions=3088&scope=bot",
+                destination: "https://discord.com/api/oauth2/authorize?client_id=822117936251928586&permissions=3120&scope=bot",
                 permanent: true
-            }
+            },
+            {
+                source: "/streamticker/support",
+                destination: "https://discord.gg/uPqm65TeTD",
+                permanent: true
+            },
         ]
     },
     target: "serverless"
